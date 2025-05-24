@@ -101,15 +101,9 @@ svg1_RENAME.append("text")
     .attr("text-anchor", "middle")
     .text("Precipitation");
 
-svg1_RENAME.append("text")
-    .attr("x", width / 2)
-    .attr("y", -20) 
-    .attr("text-anchor", "middle")
-    .style("font-size", "18px")
-    .style("font-weight", "bold")
-    .text("Chicago's Daily Temperature Trends Compared to Historical Averages（2014-2015）");
 
-// Add legend (bottom-right corner of chart)
+
+// Add legend 
 const legendData = [
     { label: "SUM of actual_mean_temp", color: "steelblue" },
     { label: "SUM of average_min_temp", color: "green" },
